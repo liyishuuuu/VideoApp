@@ -1,0 +1,62 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	    ,{
+            "path" : "pages/publicView/publicView",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公开课",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "美团外卖",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#999794",
+		"selectedColor": "#33312e",
+		"borderStyle": "white",
+		"backgroundColor": "#fafafa",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tab/shouyea.png",
+				"selectedIconPath": "static/tab/shouyeb.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/tab/dingdana.png",
+				"selectedIconPath": "static/tab/dingdanb.png",
+				"text": "视频"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tab/wodea.png",
+				"selectedIconPath": "static/tab/wodeb.png",
+				"text": "我的"
+			}
+		]
+	}
+}
